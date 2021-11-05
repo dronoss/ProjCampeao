@@ -1,0 +1,262 @@
+body{
+    position: inherit;
+    width: 1440px;
+    height: 1024px;
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#container{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+.layout{
+    position: absolute;
+}
+
+.logo{
+    position: absolute;
+    width: 259px;
+    height: 55px;
+    top: 43px;
+    left: 3.5%;
+    right: 96.5%;
+
+}
+
+#container1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    top: 194.54px;
+    width: 501px;
+    height: 80px;
+    left: 3.5%;
+    right: 96.5%;
+    padding: 0px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20,08;
+
+
+}
+
+#title{
+    font-weight: 700;
+    color: #57C3E6;
+    font-style: normal;
+    size: 36px;
+    left: 0%;
+
+    line-height: 45,18px;
+}
+
+#frase{
+    color: #B5B5B5;
+    position: absolute;
+    bottom: -30px;
+}
+
+.container2{
+    position: absolute;
+    border-width: 1.6px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #EAEAEA;
+    width: 550px;
+    height: 57px;
+    border-radius: 10px;
+    top: 332px;
+    left: 3.5%;
+    right: 96.5%;
+
+}
+
+#loginGoogle{
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#textGoogle{
+    position: relative;
+    color: #757575;
+    font-weight: bold;
+    font-size: 16px;
+    bottom: 10px;
+    left: 10px;
+}
+
+#imgGoogle{
+    position: relative;
+    top: 15px;
+    right: 90px;
+}
+
+.container3{
+    position: absolute;
+    color: #B5B5B5;
+    width: 546px;
+    height: 18px;
+    left: 3.5%;
+    right: 96.5%;
+    top: 425px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    
+}
+
+.linha{
+   color: #DFDFDF; 
+   width: 200px;
+}
+
+.container4{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 478px;
+    left: 3.5%;
+    right: 96.5%;
+
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-color: #EAEAEA;
+    width: 551px;
+    height: 55px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border-width: 1.6px;
+ 
+}
+.boxLogo{
+    box-sizing: border-box;
+    width: 50px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8px 8px 8px 24px;
+
+}
+
+.inputBox{
+    color: #404040;
+    width: 460px;
+    height: 30px;
+    font-size: 18px;
+    border-style: none;
+}
+
+#verSenha{
+    width: 18px;
+    height: 30px;
+    background-color: white;
+    background-image: url("../icons/versenha.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style: none;
+}
+
+#esqueciSenha{
+    position: relative;
+    width: 551px;
+    height: 20px;
+    top: 4px;
+    color: #9F9F9F;
+    font-size: 12.8px;
+    line-height: 19px;
+    left: 83%;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+
+}
+
+#esqueciSenha:visited{
+    color: #9F9F9F;
+}
+
+.linkVisitado:visited{
+    color: #757575;
+}
+
+#entrar{
+    position: relative;
+    background-color: #57C3E6;
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+    width: 551px;
+    height: 55px;
+    top: 40px;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#linhaCadastro{
+    position: relative;
+    top: 45px;
+    width: 551px;
+    height: 55px;
+    left: 3.5%;
+    right: 96.5%;
+    color: #BFBFBF;
+    
+}
+
+#cadastro{
+    font: bold;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.container5{
+    position: absolute;
+    width: 721px;
+    height: 1043px;
+    left: 719px;
+    top: -11px;
+
+}
+
+#imageBusiness{
+    width: 721px;
+    height: 1054px;
+    right: 0%;
+ 
+}
+
+#retangulo{
+    position: absolute;
+    background: rgba(47, 136, 201, 0.3);
+    mix-blend-mode: multiply;
+    width: 721px;
+    height: 1054px;
+    right: 0%;
+
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Espaço Campeão</title>
+</head>
+
+<body>
+    <div id="container">
+        <header class="logo"><img src="./images/White.png"></header>
+        
+        <div id="container1">
+            <h1 id="title">Olá, bem vindo de Volta!</h1>
+            <p id="frase">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam</p>
+        </div>
+
+        <div class="container2">
+        
+            <a id="loginGoogle" href="https://www.google.com/accounts/Login?hl=pt-br">
+                <div id="imgGoogle"><img src="./icons/Google.png"></div>
+                <div id="textGoogle">Login com o Google</div>
+            </a>
+        </div>
+    
+        <div class="container3">
+            <p><hr class="linha"> Ou com email <hr class="linha"></p>
+        </div>
+
+        <div class="container4">        
+        
+            <form method="POST" action="">
+        
+                <p>Email</p>
+
+                <div class="box">
+
+                    <div class="boxLogo">
+                        <img class="logoEmailSenha" src="./icons/email.png">
+                    </div>
+
+                    <input class="inputBox" type="email" name="email">
+
+                </div> <br>
+
+                <p>Senha</p>
+            
+                <div class="box">
+
+                    <div class="boxLogo">
+                        <img class="logoEmailSenha" src="./icons/senha.png">
+                    </div>
+
+                    <input id="senha" class="inputBox" type="password" name="senha">
+
+                    <button id ="verSenha" type="button" onclick="mostrarSenha()"></button>
+
+                </div>
+
+                <a id="esqueciSenha" href="./html/paginaEmConstrucao.html">Esqueci a senha</a> <br>
+
+                <input id="entrar" type="submit" name="entrar" value="Entrar">
+
+           
+
+            </form>
+
+            <p id="linhaCadastro">Ainda não possui conta? <a class="linkVisitado" id="cadastro" href="">Clique aqui</a></p>
+
+        </div>
+
+    </div>
+
+    <div class="container5">
+
+        <div id="retangulo"></div>
+        <img id="imageBusiness" src="./images/group-people-working-out-business-plan-office 1.png">
+
+    </div>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
